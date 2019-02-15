@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FDF984C221652F100138481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF984B221652F100138481 /* AppDelegate.swift */; };
+		3FDF984E221652F100138481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF984D221652F100138481 /* ViewController.swift */; };
+		3FDF9851221652F200138481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDF984F221652F200138481 /* Main.storyboard */; };
+		3FDF9853221652F300138481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDF9852221652F300138481 /* Assets.xcassets */; };
+		3FDF9856221652F300138481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDF9854221652F300138481 /* LaunchScreen.storyboard */; };
+		3FDF9861221652F300138481 /* ArthematicappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF9860221652F300138481 /* ArthematicappTests.swift */; };
+		3FDF986C221652F300138481 /* ArthematicappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF986B221652F300138481 /* ArthematicappUITests.swift */; };
+		3FDF987C22165F5F00138481 /* ExerciseCoach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF987B22165F5F00138481 /* ExerciseCoach.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FDF985D221652F300138481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDF9840221652F100138481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FDF9847221652F100138481;
+			remoteInfo = Arthematicapp;
+		};
+		3FDF9868221652F300138481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDF9840221652F100138481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FDF9847221652F100138481;
+			remoteInfo = Arthematicapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FDF9848221652F100138481 /* Arthematicapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arthematicapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDF984B221652F100138481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FDF984D221652F100138481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FDF9850221652F200138481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FDF9852221652F300138481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FDF9855221652F300138481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FDF9857221652F300138481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDF985C221652F300138481 /* ArthematicappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArthematicappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDF9860221652F300138481 /* ArthematicappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArthematicappTests.swift; sourceTree = "<group>"; };
+		3FDF9862221652F300138481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDF9867221652F300138481 /* ArthematicappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArthematicappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDF986B221652F300138481 /* ArthematicappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArthematicappUITests.swift; sourceTree = "<group>"; };
+		3FDF986D221652F300138481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDF987B22165F5F00138481 /* ExerciseCoach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCoach.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FDF9845221652F100138481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDF9859221652F300138481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDF9864221652F300138481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FDF983F221652F100138481 = {
+			isa = PBXGroup;
+			children = (
+				3FDF984A221652F100138481 /* Arthematicapp */,
+				3FDF985F221652F300138481 /* ArthematicappTests */,
+				3FDF986A221652F300138481 /* ArthematicappUITests */,
+				3FDF9849221652F100138481 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FDF9849221652F100138481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FDF9848221652F100138481 /* Arthematicapp.app */,
+				3FDF985C221652F300138481 /* ArthematicappTests.xctest */,
+				3FDF9867221652F300138481 /* ArthematicappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FDF984A221652F100138481 /* Arthematicapp */ = {
+			isa = PBXGroup;
+			children = (
+				3FDF984B221652F100138481 /* AppDelegate.swift */,
+				3FDF984D221652F100138481 /* ViewController.swift */,
+				3FDF984F221652F200138481 /* Main.storyboard */,
+				3FDF9852221652F300138481 /* Assets.xcassets */,
+				3FDF9854221652F300138481 /* LaunchScreen.storyboard */,
+				3FDF9857221652F300138481 /* Info.plist */,
+				3FDF987B22165F5F00138481 /* ExerciseCoach.swift */,
+			);
+			path = Arthematicapp;
+			sourceTree = "<group>";
+		};
+		3FDF985F221652F300138481 /* ArthematicappTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FDF9860221652F300138481 /* ArthematicappTests.swift */,
+				3FDF9862221652F300138481 /* Info.plist */,
+			);
+			path = ArthematicappTests;
+			sourceTree = "<group>";
+		};
+		3FDF986A221652F300138481 /* ArthematicappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FDF986B221652F300138481 /* ArthematicappUITests.swift */,
+				3FDF986D221652F300138481 /* Info.plist */,
+			);
+			path = ArthematicappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FDF9847221652F100138481 /* Arthematicapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDF9870221652F300138481 /* Build configuration list for PBXNativeTarget "Arthematicapp" */;
+			buildPhases = (
+				3FDF9844221652F100138481 /* Sources */,
+				3FDF9845221652F100138481 /* Frameworks */,
+				3FDF9846221652F100138481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arthematicapp;
+			productName = Arthematicapp;
+			productReference = 3FDF9848221652F100138481 /* Arthematicapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FDF985B221652F300138481 /* ArthematicappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDF9873221652F300138481 /* Build configuration list for PBXNativeTarget "ArthematicappTests" */;
+			buildPhases = (
+				3FDF9858221652F300138481 /* Sources */,
+				3FDF9859221652F300138481 /* Frameworks */,
+				3FDF985A221652F300138481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FDF985E221652F300138481 /* PBXTargetDependency */,
+			);
+			name = ArthematicappTests;
+			productName = ArthematicappTests;
+			productReference = 3FDF985C221652F300138481 /* ArthematicappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FDF9866221652F300138481 /* ArthematicappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDF9876221652F300138481 /* Build configuration list for PBXNativeTarget "ArthematicappUITests" */;
+			buildPhases = (
+				3FDF9863221652F300138481 /* Sources */,
+				3FDF9864221652F300138481 /* Frameworks */,
+				3FDF9865221652F300138481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FDF9869221652F300138481 /* PBXTargetDependency */,
+			);
+			name = ArthematicappUITests;
+			productName = ArthematicappUITests;
+			productReference = 3FDF9867221652F300138481 /* ArthematicappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FDF9840221652F100138481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3FDF9847221652F100138481 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3FDF985B221652F300138481 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3FDF9847221652F100138481;
+					};
+					3FDF9866221652F300138481 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3FDF9847221652F100138481;
+					};
+				};
+			};
+			buildConfigurationList = 3FDF9843221652F100138481 /* Build configuration list for PBXProject "Arthematicapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FDF983F221652F100138481;
+			productRefGroup = 3FDF9849221652F100138481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FDF9847221652F100138481 /* Arthematicapp */,
+				3FDF985B221652F300138481 /* ArthematicappTests */,
+				3FDF9866221652F300138481 /* ArthematicappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FDF9846221652F100138481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDF9856221652F300138481 /* LaunchScreen.storyboard in Resources */,
+				3FDF9853221652F300138481 /* Assets.xcassets in Resources */,
+				3FDF9851221652F200138481 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDF985A221652F300138481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDF9865221652F300138481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FDF9844221652F100138481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDF984E221652F100138481 /* ViewController.swift in Sources */,
+				3FDF987C22165F5F00138481 /* ExerciseCoach.swift in Sources */,
+				3FDF984C221652F100138481 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDF9858221652F300138481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDF9861221652F300138481 /* ArthematicappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDF9863221652F300138481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDF986C221652F300138481 /* ArthematicappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FDF985E221652F300138481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FDF9847221652F100138481 /* Arthematicapp */;
+			targetProxy = 3FDF985D221652F300138481 /* PBXContainerItemProxy */;
+		};
+		3FDF9869221652F300138481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FDF9847221652F100138481 /* Arthematicapp */;
+			targetProxy = 3FDF9868221652F300138481 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FDF984F221652F200138481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDF9850221652F200138481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FDF9854221652F300138481 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDF9855221652F300138481 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FDF986E221652F300138481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FDF986F221652F300138481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FDF9871221652F300138481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Arthematicapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nwmissouri.edu.Arthematicapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FDF9872221652F300138481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Arthematicapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nwmissouri.edu.Arthematicapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FDF9874221652F300138481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArthematicappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nwmissouri.edu.ArthematicappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arthematicapp.app/Arthematicapp";
+			};
+			name = Debug;
+		};
+		3FDF9875221652F300138481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArthematicappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nwmissouri.edu.ArthematicappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arthematicapp.app/Arthematicapp";
+			};
+			name = Release;
+		};
+		3FDF9877221652F300138481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArthematicappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nwmissouri.edu.ArthematicappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Arthematicapp;
+			};
+			name = Debug;
+		};
+		3FDF9878221652F300138481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArthematicappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nwmissouri.edu.ArthematicappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Arthematicapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FDF9843221652F100138481 /* Build configuration list for PBXProject "Arthematicapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDF986E221652F300138481 /* Debug */,
+				3FDF986F221652F300138481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDF9870221652F300138481 /* Build configuration list for PBXNativeTarget "Arthematicapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDF9871221652F300138481 /* Debug */,
+				3FDF9872221652F300138481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDF9873221652F300138481 /* Build configuration list for PBXNativeTarget "ArthematicappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDF9874221652F300138481 /* Debug */,
+				3FDF9875221652F300138481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDF9876221652F300138481 /* Build configuration list for PBXNativeTarget "ArthematicappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDF9877221652F300138481 /* Debug */,
+				3FDF9878221652F300138481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FDF9840221652F100138481 /* Project object */;
+}
